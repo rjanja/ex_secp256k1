@@ -13,3 +13,7 @@ crate-type = ["dylib"]
 rustler = "0.21.1"
 lazy_static = "1.0"
 libsecp256k1 = "0.3.5"
+
+[build-dependencies]
+object = "=0.20.0"
+backtrace = "=0.3.50"
